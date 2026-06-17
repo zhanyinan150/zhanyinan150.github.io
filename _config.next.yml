@@ -1,0 +1,46 @@
+# NexT 主题配置
+# 文档: https://theme-next.js.org/docs/
+
+# 站点信息
+favicon:
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+
+# 主题样式: Muse | Pisces | Gemini | Mist
+scheme: Gemini
+
+# 菜单
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+
+# 侧边栏
+sidebar:
+  position: left
+  display: post
+
+# 文章
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: true
+  categories: true
+
+# 代码块
+codeblock:
+  style:
+    mac: true
+
+# 返回顶部
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+# 本地搜索(需安装 hexo-generator-searchdb)
+local_search:
+  enable: false
